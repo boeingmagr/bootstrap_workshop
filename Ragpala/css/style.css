@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: Bitter;
+  src: url(font/Bitter-Regular.ttf);
+}
+@font-face {
+  font-family: CrimsonText;
+  src: url(font/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(font/Lora-Regular.ttf);
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(font/Nunito-Regular.ttf);
+}
+
+body{
+  background-image: url(background-light.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: silver;
+  background-attachment: fixed;
+}
+
+carousel-item{
+  carousel-transition: .5s;
+}
+.jumbotron{
+  background-image: url(darkbg.png);
+}
+
+p, h3{
+  background-color: rgba(0,0,0,0.7);
+  padding: 2%;
+}
+
+h1{
+  font-family: Bitter;
+}
+
+h5{
+  font-family: Lora;
+}
+
+p{
+  font-family: Nunito;
+}
